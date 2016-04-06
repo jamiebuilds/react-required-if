@@ -25,3 +25,20 @@ export default class Component extends React.Component {
   }
 }
 ```
+
+**Result:**
+
+```js
+import React from 'react';
+import {render} from 'react-dom';
+import Component from './Component';
+
+render(
+  <div>
+    <Component onClick={() => {})/> // ok
+    <Component disabled={true}/> // ok
+    <Component/> // NOooooooo
+  </div>,
+  document.getElementById('root')
+);
+```
