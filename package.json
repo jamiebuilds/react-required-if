@@ -1,6 +1,6 @@
 {
   "name": "react-required-if",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React PropType to conditionally add `.isRequired` based on other props",
   "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
