@@ -4,5 +4,9 @@
   "description": "React PropType to conditionally add `.isRequired` based on other props",
   "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamiebuilds/react-required-if.git"
+  },
   "license": "MIT"
 }
